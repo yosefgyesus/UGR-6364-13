@@ -13,6 +13,47 @@ table, th, col, tr{
   margin: 10px;
   
 }
+@media (max-width: 600px) {
+  div {
+    
+    width: 100%;
+  }
+  body{
+    background-color: lightblue;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: pink;
+
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color:lightgreen;
+
+  }
+  div{
+    max-width: 40%;
+    display:flex;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  body {
+    background-color:green;
+    max-width: 100%;
+
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  body {
+    background-color: pink;
+
+  }
+}
 
 .table{
 	 empty-cells: show;
