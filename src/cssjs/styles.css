@@ -20,6 +20,9 @@ table, th, col, tr{
      
 }
 
+.container{
+	display: flex;
+}
 
 th{
 	text-align: center;
