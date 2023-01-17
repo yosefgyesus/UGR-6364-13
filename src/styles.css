@@ -5,6 +5,9 @@ html {
     
 }
 
+video{
+	text-align: center;
+}
 table, th, col, tr{
   border: 10px solid black;
   
